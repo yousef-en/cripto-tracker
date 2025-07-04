@@ -6,6 +6,7 @@ import FAQPage from './pages/FAQ.page';
 import ContactUsPage from './pages/ContactUs.page';
 import AboutUsPage from './pages/AboutUs.page';
 
+
 function App() {
   return (
     <div>

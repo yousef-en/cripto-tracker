@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutUsPage =()=>{
     return(
-        <div>
+        <div className="wrapper">
             <h3>AboutUs</h3>
         </div>
     )
