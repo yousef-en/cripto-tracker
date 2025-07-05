@@ -13,5 +13,5 @@ body{
 .wrapper{
   width: 100%;
   min-height: calc(100vh - 56px - 40px );
-  background-color: aqua;
+  /* background-color: aqua; */
 }
