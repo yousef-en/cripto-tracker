@@ -15,3 +15,10 @@ body{
   min-height: calc(100vh - 56px - 40px );
   /* background-color: aqua; */
 }
+.about-img{
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+
+ 
+}
