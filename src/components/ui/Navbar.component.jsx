@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import { Link } from 'react-router-dom';
 import { FaCoins } from 'react-icons/fa';
+import ThemeToggle from './ThemeToggle.component';
 import './Navbar.css';
 
 
@@ -32,7 +33,7 @@ const NavbarComponent =() => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav me-auto">
             <li className="nav-item" onClick={toggelNavbar}>
               <Link className="nav-link" to="/" >
                 Home
@@ -54,6 +55,9 @@ const NavbarComponent =() => {
               </Link>
             </li>
           </ul>
+          <div className="d-flex align-items-center">
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </nav>

@@ -1,6 +1,42 @@
 
 .logo-coins{
-    width:50px ;
+    width: 60px;
     height: auto;
+}
 
+.coin-details-row {
+    background-color: var(--bg-secondary);
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+/* Price change colors */
+.price-positive {
+    color: var(--success-color);
+}
+
+.price-negative {
+    color: var(--danger-color);
+}
+
+/* Table container with better styling */
+.table-container {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+    .table-responsive {
+        font-size: 0.9rem;
+    }
+    
+    .logo-coins {
+        width: 40px;
+    }
 }

@@ -3,22 +3,124 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  /* Light theme variables */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --text-primary: #000000;
+  --text-secondary: #3e4448;
+  --border-color: #dee2e6;
+  --card-bg: #ffffff;
+  --navbar-bg: #f8f9fa;
+  --table-hover: #f8f9fa;
+  --link-color: #007bff;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+}
+
+[data-theme="dark"] {
+  /* Dark theme variables */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --text-primary: #ffffff;
+  --text-secondary: #b0b0b0;
+  --border-color: #404040;
+  --card-bg: #2d2d2d;
+  --navbar-bg: #2d2d2d;
+  --table-hover: #3a3a3a;
+  --link-color: #4dabf7;
+  --success-color: #51cf66;
+  --danger-color: #ff6b6b;
+  --warning-color: #ffd43b;
+}
+
 body{
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .wrapper{
   width: 100%;
   min-height: calc(100vh - 56px - 40px );
-  /* background-color: aqua; */
 }
+
 .about-img{
   width: 400px;
   height: 400px;
   border-radius: 10px;
+}
 
- 
+.text-gray {
+  color: var(--text-secondary); 
+}
+
+/* Dark mode toggle button styles */
+.theme-toggle {
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background-color: var(--bg-secondary);
+}
+
+/* Table styles for dark mode */
+.table {
+  background-color: var(--card-bg);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+.table th,
+.table td {
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+.table-hover tbody tr:hover {
+  background-color: var(--table-hover);
+}
+
+/* Navbar dark mode styles */
+.navbar {
+  background-color: var(--navbar-bg) !important;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.navbar-nav .nav-link {
+  color: var(--text-primary) !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--link-color) !important;
+}
+
+/* Card styles for dark mode */
+.card {
+  background-color: var(--card-bg);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+/* Link styles */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
 }

@@ -25,8 +25,7 @@ const HomePage = () => {
     <div className="container">
       <div className="row">
         <div className="col-12 text-center">
-          <h1>crypto tracker</h1>
-          <h3> get the latest crypto prices</h3>
+          <h2 className="m-4 text-gray "> get the latest crypto prices</h2>
         </div>
       </div>
       <div className="row">

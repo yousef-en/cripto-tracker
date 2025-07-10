@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import FAQPage from './pages/FAQ.page';
 import ContactUsPage from './pages/ContactUs.page';
 import AboutUsPage from './pages/AboutUs.page';
-
+import CoinPage from './pages/Coin.page';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomePage/>}/>
+          <Route path="/coin/:id" element={<CoinPage/>}/>
           <Route path="/faq" element={<FAQPage/>}/>
           <Route path="/contact-us" element={<ContactUsPage/>}/>
           <Route path="/about-us" element={<AboutUsPage/>}/>
