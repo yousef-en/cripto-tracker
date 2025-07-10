@@ -1,0 +1,53 @@
+[33mcommit da12d4765002166caa894806a1a5d1e5eed1ee2b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: yousef <yousefhossein50@gmail.com>
+Date:   Thu Jul 10 09:46:00 2025 +0330
+
+    dark mode
+
+[33mcommit 5576e56252aee97a509dd6b8d0b5ce00a5824f4e[m
+Author: yousef <yousefhossein50@gmail.com>
+Date:   Thu Jul 10 09:32:44 2025 +0330
+
+    coin details
+
+[33mcommit 32ed50fa74fba1b974d122ac4040ad5408d160dd[m
+Author: yousef <yousefhossein50@gmail.com>
+Date:   Mon Jul 7 23:28:19 2025 +0330
+
+    .
+
+[33mcommit a2a27b57b626b6bb55643ffcd8f811d69c30bc65[m
+Author: yousef <yousefhossein50@gmail.com>
+Date:   Mon Jul 7 23:25:44 2025 +0330
+
+    show coins
+
+[33mcommit 1d33266ce1425e8cdab5bed910ce33743cb18152[m
+Author: yousef <yousefhossein50@gmail.com>
+Date:   Mon Jul 7 19:42:32 2025 +0330
+
+    .
+
+[33mcommit f30a7848501677cbfab619d211c231de14fe7183[m
+Author: yousef <yousefhossein50@gmail.com>
+Date:   Sat Jul 5 18:55:53 2025 +0330
+
+    spinner
+
+[33mcommit 3b6a38b23edbef8e131b341c67a2e6a45e31c67d[m
+Author: yousef <yousefhossein50@gmail.com>
+Date:   Fri Jul 4 18:39:02 2025 +0330
+
+    footer
+
+[33mcommit 05e6f7611dc74a342b14f5927f7691344ac57df4[m
+Author: yousef <yousefhossein50@gmail.com>
+Date:   Thu Jul 3 11:48:36 2025 +0330
+
+    routes
+
+[33mcommit de433a30a59f202fb7944663eea32b3e2a3219b7[m
+Author: yousef <yousefhossein50@gmail.com>
+Date:   Thu Jul 3 10:36:34 2025 +0330
+
+    Initialize project using Create React App
