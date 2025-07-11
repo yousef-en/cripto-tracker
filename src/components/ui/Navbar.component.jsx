@@ -1,24 +1,21 @@
-import React, { useRef } from 'react'
-import { Link } from 'react-router-dom';
-import { FaCoins } from 'react-icons/fa';
-import ThemeToggle from './ThemeToggle.component';
-import './Navbar.css';
+import React, { useRef } from "react";
+import { Link } from "react-router-dom";
+import { FaCoins } from "react-icons/fa";
+import "./Navbar.css";
 
-
-const NavbarComponent =() => {
-
+const NavbarComponent = () => {
   const btnToggelRef = useRef();
 
   const toggelNavbar = () => {
     btnToggelRef.current.click();
-  }
+  };
 
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-          <div className="d-flex align-items-center"  >
-            <FaCoins  className="navbar-logo-icon"/>
-            <span className="navbar-logo-text">Crypto Tracker</span>
+        <div className="d-flex align-items-center">
+          <FaCoins className="navbar-logo-icon" />
+          <span className="navbar-logo-text">Crypto Tracker</span>
         </div>
         <button
           className="navbar-toggler"
@@ -35,33 +32,30 @@ const NavbarComponent =() => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto">
             <li className="nav-item" onClick={toggelNavbar}>
-              <Link className="nav-link" to="/" >
+              <Link className="nav-link" to="/">
                 Home
               </Link>
             </li>
             <li className="nav-item" onClick={toggelNavbar}>
-              <Link className="nav-link" to="/faq" >
+              <Link className="nav-link" to="/faq">
                 FAQ
-              </Link> 
+              </Link>
             </li>
             <li className="nav-item" onClick={toggelNavbar}>
-              <Link className="nav-link" to="/contact-us" >
+              <Link className="nav-link" to="/contact-us">
                 Contact Us
               </Link>
             </li>
             <li className="nav-item" onClick={toggelNavbar}>
-              <Link className="nav-link" to="/about-us" >
+              <Link className="nav-link" to="/about-us">
                 About Us
               </Link>
             </li>
           </ul>
-          <div className="d-flex align-items-center">
-            <ThemeToggle />
-          </div>
         </div>
       </div>
     </nav>
   );
-  }
+};
 
 export default NavbarComponent;

@@ -7,6 +7,7 @@ import ContactUsPage from './pages/ContactUs.page';
 import AboutUsPage from './pages/AboutUs.page';
 import CoinPage from './pages/Coin.page';
 
+
 function App() {
   return (
     <div>
