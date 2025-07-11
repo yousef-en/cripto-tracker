@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { Link } from 'react-router-dom';
 import { FaCoins } from 'react-icons/fa';
-import ThemeToggle from '../../context/ThemeContext';
+import ThemeToggle from './ThemeToggle.component';
 import './Navbar.css';
 
 
